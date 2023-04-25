@@ -1,0 +1,5 @@
+.reservation {
+    display: grid;
+    max-width: 300px;
+    gap: 20px;
+};

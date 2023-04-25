@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Markazi+Text:wght@400;500&display=swap');
+
+.testimonials {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.testimonial-heading h2 {
+    text-align: center;
+    font-family: 'Markazi Text', serif;
+    font-size: 40pt;
+    font-weight: 500;
+}
+
+.testimonials-card {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    font-size: 16pt;
+    color: #FFFFFF;
+    column-gap: 30px;
+}
+.each-testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 280px;
+    height: 420px;
+    background-color: #333333 ;
+    border-radius: 16px;
+    padding-top: 30px;
+}
+
+.rating-star {
+    display: flex;
+    flex-direction: row;
+    color: #F4CE14 ;
+}
+
+.customer-img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.customer-name {
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+.customer-says p {
+    margin: 30px;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 1024px) {
+    .testimonials-card {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        row-gap: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .testimonials-card {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        row-gap: 30px;
+    }
+}

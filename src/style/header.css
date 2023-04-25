@@ -1,0 +1,45 @@
+.header-nav {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.hamburger-nav {
+    display: none;
+}
+
+.logo {
+    width: 250px;
+}
+@media (max-width: 1024px) {
+    .logo {
+        width: 20vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-nav {
+        display: block;
+        margin: 0;
+    }
+
+    .logo {
+        width: 40vw;
+    }
+
+    .hamburger-nav {
+        display: block;
+    }
+
+    .logo-and-humburger {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .hamburger-menu {
+        display: none;
+        transition: all 0.5s ease;
+    }
+}

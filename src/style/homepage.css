@@ -1,0 +1,18 @@
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 10px;
+    margin: 0 -50px;
+    grid-template-areas: 
+        ".      .      header header header header header header header header .      .     "
+        "banner banner banner banner banner banner banner banner banner banner banner banner"
+    ;
+}
+
+.header {
+    grid-area: header;
+}
+
+.banner {
+    grid-area: banner;
+} */

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Markazi+Text:wght@400;500&display=swap');
+/* font-family: 'Karla', sans-serif;
+font-family: 'Markazi Text', serif; */
+
+.about-chicago {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    column-gap: 250px;
+}
+
+/*Acticle CSS */
+.about-acticle {
+    width: 660px;
+}
+.about-heading {
+    font-family: 'Markazi Text', serif;
+}
+.about-heading h2 {
+    font-family: 'Markazi Text', serif;
+    font-size: 44pt;
+    font-weight: 500;
+    color: #F4CE14;
+    margin-bottom: 0;
+}
+
+.about-heading h4 {
+    font-family: 'Markazi Text', serif;
+    font-size: 24pt;
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.about-paragraph p {
+    font-family: 'Karla', sans-serif ;
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+
+/*Img CSS */
+.about-img-div {
+    position: relative;
+}
+
+.about-img-div-1 {
+    position: absolute;
+    /* transform: translate(-200px, 100px); */
+    top: 100px;
+    left: -200px;
+
+    width: 280px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+.about-img-div-2 {
+    width: 280px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.about-img-chef-1 {
+    position: relative;
+    height: 350px;
+    transform: translate(-220px, 0);
+}
+
+.about-img-chef-2 {
+    position: relative;
+    height: 350px;
+    transform: translate(-210px, 0);
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 1024px) {
+    .about-chicago {
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 20px;
+    }
+    .about-acticle {
+        width: 80vw;
+    }
+
+    .about-img-div {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        justify-content: center;
+        column-gap: 50px;
+    }
+    .about-img-div-1 {
+        position: static;
+        transform: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-chicago {
+        display: grid;
+        grid-template-columns: auto;
+        justify-items: center;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .about-acticle {
+        width: 80vw;
+    }
+    .about-img-div {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .about-img-div-1 {
+        position: static;
+        transform: none;
+    }
+
+}

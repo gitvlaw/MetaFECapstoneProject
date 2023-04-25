@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Markazi+Text:wght@400;500&display=swap');
+
+/* font-family: 'Karla', sans-serif;
+font-family: 'Markazi Text', serif; */
+
+.banner {
+    background-color: #495E57;
+    color: white;
+}
+.banner-content {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-evenly;
+    height: 350px;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+
+
+.banner-text h2 {
+    font-family: 'Markazi Text', serif ;
+    font-size: 40pt;
+    font-weight: 500;
+    color: #F4CE14 ;
+    margin-bottom: -15px;
+    margin-top: 20px;
+}
+
+.banner-text h4 {
+    font-family: 'Markazi Text', serif;
+    font-size: 24pt;
+    font-weight: 400;
+    margin: 0;
+}
+
+.banner-text p {
+    font-family: 'Karla', sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    max-width: 280px;
+    margin: 15px 0;
+}
+
+.banner-text button {
+    font-family: 'Karla', sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+    border-radius: 16pt;
+    border: 0;
+    padding: 10px 15px;
+    background-color: #F4CE14;
+    color: #000000;
+    margin: 0;
+}
+
+.banner-img img {
+    border-radius: 16pt;
+    height: 350px;
+    width: 280px;
+    margin-top: 30px;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+    .banner-content {
+        display: block;
+        height: 500px;
+        padding-top: 10px;
+    }
+    .banner-text {
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 auto;
+        display: grid;
+        place-items: center;
+    }
+    .banner-img {
+        margin-right: auto;
+        margin-left: auto;
+        display: grid;
+        place-items: center;
+    }
+}

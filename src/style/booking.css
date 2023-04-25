@@ -1,0 +1,5 @@
+.bookingpage {
+    display: grid;
+    max-width: 200px;
+    gap: 20px;
+};
