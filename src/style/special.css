@@ -25,9 +25,13 @@
     font-weight: 500;
     border-radius: 16pt;
     border: 0;
-    padding: 0 15px;
+    padding:10px 15px;
     background-color: #F4CE14;
     color: #000000;
+}
+
+.special-heading button:hover {
+    background-color: #EE9972;
 }
 
 .special-card {
@@ -90,6 +94,20 @@
     font-weight: 600;
     text-align: left;
 }
+
+.special-delivery a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.special-delivery a:hover {
+    color: #EE9972;
+}
+
+/* .special-delivery NavLink {
+    color: #000000;
+    text-decoration: none;
+} */
 
 /* Media queries for different screen sizes */
 @media (max-width: 1024px) {

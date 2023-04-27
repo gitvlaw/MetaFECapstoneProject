@@ -4,6 +4,7 @@ import HomePage from "./page/HomePage";
 import About from "./page/About";
 import Menu from "./page/Menu";
 import BookingPage from "./page/BookingPage";
+import OrderOnline from './page/OrderOnline';
 
 import {BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -18,7 +19,7 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/menu" element={<Menu />}></Route>
           <Route path="/reservation" element={<BookingPage />}></Route>
-          <Route path="/order-online" element={<HomePage />}></Route>
+          <Route path="/order-online" element={<OrderOnline />}></Route>
           <Route path="/login" element={<HomePage />}></Route>
         </Routes>
       </BrowserRouter>

@@ -2,6 +2,7 @@ import React from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faTruck } from '@fortawesome/free-solid-svg-icons';
 import '../style/special.css';
+import { NavLink } from "react-router-dom";
 
 const specialItems = [
     {
@@ -39,7 +40,7 @@ const CardSpecial = ({title, price, description, imgSrc }) => {
                     <p>{description}</p>
                 </div>
                 <div className="special-delivery">
-                    <p>Order a delivery</p>
+                    <NavLink to="/order-online"><p>Order a delivery</p></NavLink>
                     <FontAwesomeIcon icon={faTruck} />
                 </div>
             </div>
@@ -53,7 +54,7 @@ function Specials() {
         <div className="special">
             <div className="special-heading">
                 <h1>This weeks Specials!</h1>
-                <button>Online Order</button>
+                <NavLink to="/order-online"><button aria-label="On Click">Online Order</button></NavLink>
             </div>
             <div className="special-card">
                 {specialItems.map((item) => {

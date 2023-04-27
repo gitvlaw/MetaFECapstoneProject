@@ -110,7 +110,7 @@ const ReservationForm = () => {
                     )}
                 </>
 
-                <button type="submit" className="input-field-button" disabled={formik.isSubmitting}>
+                <button type="submit" className="input-field-button" disabled={formik.isSubmitting} aria-label="On Click">
                     Make Your reservation
                 </button>
             </form>

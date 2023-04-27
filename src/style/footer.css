@@ -32,6 +32,10 @@
     color: white;
 }
 
+.footer-navlink:hover {
+    color: #EE9972;
+}
+
 /* --------------------- */
 .footer-address ul {
     list-style: none;
@@ -39,6 +43,10 @@
 
 .footer-address-li {
     margin-top: 10px;
+}
+
+.footer-address-li a:hover {
+    color: #EE9972;
 }
 
 .footer-adress-icon {
@@ -56,6 +64,10 @@
 
 .footer-social-li {
     margin-top: 10px;
+}
+
+.footer-social-link a:hover {
+    color: #EE9972;
 }
 
 /* Media queries for different screen sizes */

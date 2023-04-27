@@ -1,6 +1,7 @@
 import React from "react";
 import '../style/banner.css' ;
 import restaurantfood from '../icons_assets/restauranfood.jpg' ;
+import { NavLink } from "react-router-dom";
 
 export default function Banner() {
     return (
@@ -11,7 +12,7 @@ export default function Banner() {
                         <h2>Little Lemon</h2>
                         <h4>Chicago</h4>
                         <p>We are a family owned Mediterrancean restaurant, focused on tradtional recipes with a modern twitst.</p>
-                        <button>Reserve a Table</button>
+                        <NavLink to="/reservation"><button aria-label="On Click">Reserve a Table</button></NavLink>
                     </div>
                 </div>
                 <div className="banner-img">

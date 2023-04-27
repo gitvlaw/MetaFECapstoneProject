@@ -17,16 +17,20 @@
   padding-right: 15px;
 }
 
-a {
+nav a {
   text-decoration: none;
 }
 
-.navlink {
+nav .navlink {
   text-decoration: none;
   color: #000000;
 }
 
-.active {
+nav .navlink:hover {
+  color: #EE9972;
+}
+
+nav .active {
   color: #F4CE14;
   background-color: #495E57;
   border-radius: 16px;
@@ -57,14 +61,14 @@ a {
     margin: 0;
   }
 
-  .navlink {
+  nav .navlink {
     color: white;
   }
 
   .nav-li {
     padding: 5px 0;
   }
-  .active {
+  nav .active {
     color: #F4CE14;
     background-color: #495E57;
     border-radius: 5px;

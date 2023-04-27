@@ -98,3 +98,7 @@
 .reservation-info  p:first-child {
     font-weight: 600;
 }
+
+.input-field-button:hover {
+    background-color: #EE9972;
+}
