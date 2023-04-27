@@ -11,10 +11,12 @@ export default function Homepage() {
     return (
         <div className="container">
             <Header className="header" />
-            <Banner className="banner"/>
-            <Specials/>
-            <Testimonials/>
-            <AboutChicago />
+            <main>
+                <Banner/>
+                <Specials/>
+                <Testimonials/>
+                <AboutChicago />
+            </main>
             <Footer />
         </div>
     );

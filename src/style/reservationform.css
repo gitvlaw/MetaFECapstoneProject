@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Markazi+Text:wght@400;500&display=swap');
+
+.reservation {
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 250px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-family:'Karla', sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+    background-color:#EDEFEE;
+    padding: 35px;
+    border-radius: 16pt;
+};
+
+.reservation label {
+    font-family:'Karla', sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+.input-field {
+    font-family:'Karla', sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.reservation select {
+    font-family:'Karla', sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.input-field-button {
+    font-family:'Karla', sans-serif;
+    font-size: 18pt;
+    font-weight: 500;
+    background-color: #f4ce14;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 15px;
+}
+
+.error-message {
+    font-size: 14pt;
+    color: #ff5100;
+}
+
+.confirmation-message {
+    font-family:'Karla', sans-serif;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.reservation-info {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16pt;
+    width: 300px;
+    padding: 15px;
+    background-color:#EDEFEE;
+    border-radius: 16pt;
+}
+
+.confirmation-message h1 {
+    text-align: center;
+    font-size: 25pt;
+    font-weight: 600;
+}
+
+.confirmation-message > p {
+    text-align: center;
+    font-size: 25pt;
+    font-weight: 600;
+}
+
+.reservation-info p {
+    font-size: 16pt;
+    font-weight: 400;
+    margin: 0;
+}
+
+.reservation-info  p:first-child {
+    font-weight: 600;
+}

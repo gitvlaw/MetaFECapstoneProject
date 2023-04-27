@@ -8,8 +8,10 @@ export default function About() {
     return (
         <>
             <Header />
-            {/* <Banner /> */}
-            <AboutChicago />
+            <main>
+                {/* <Banner /> */}
+                <AboutChicago />
+            </main>
             <Footer />
         </>
     );
